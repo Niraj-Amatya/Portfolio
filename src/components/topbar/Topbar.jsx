@@ -3,14 +3,16 @@ import './topbar.scss';
 
 const Topbar = () => {
   return (
-    <div className="topbar">
-      <div className="wrapper">
-        <div className="left">
-          <a href="#intro">Intro</a>
+    <header className="header">
+      <div className="header__wrapper">
+        <div className="header__left">
+          <a href="#intro" className="header__logo">
+            N/A
+          </a>
         </div>
-        <div className="right"></div>
+        <div className="header__right">hamburger</div>
       </div>
-    </div>
+    </header>
   );
 };
 
