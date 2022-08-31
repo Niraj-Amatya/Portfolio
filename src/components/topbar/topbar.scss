@@ -1,8 +1,10 @@
+@import "../../global.scss";
+
 
 .topbar {
     width: 100%;
     height: 70px;
-    background-color:#15023a;
+    background-color: $mainColor;
     //for fixed navbar and z-index higher then other element is also necessary to keep stick in the top
     position: fixed;
     top: 0;
