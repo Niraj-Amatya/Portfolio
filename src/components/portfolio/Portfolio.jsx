@@ -1,4 +1,4 @@
-import './portfolio.scss';
+import './portfolio.css';
 import React from 'react';
 
 const Portfolio = () => {
