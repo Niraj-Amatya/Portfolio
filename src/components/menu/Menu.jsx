@@ -2,6 +2,10 @@ import React from 'react';
 import './menu.css';
 
 const menu = ({ menuIsOpen, handleMenu }) => {
+  // menuIsOpen is the state passed as a prop from the App component and can be either true or false
+  // handleMenu is the function passed from the app. It is called from all the nav list item when clicked.
+  // helper class to hide or show menu list when hamburger icon is clicked.
+  // active class is applied to nav and nav item is shown
   const helperClass = menuIsOpen ? 'nav active' : 'nav';
   return (
     <nav className={helperClass}>
