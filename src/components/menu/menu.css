@@ -1,0 +1,54 @@
+.nav {
+    width: 300px;
+    height: 100vh;
+    background-color: var(--main-color);
+    position: fixed;
+    top: 100px;
+    /* hide nav list until hamburger menu is clicked  */
+    right: -300px; 
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+}
+
+ 
+
+.nav__lists {
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.5rem;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+
+
+ .nav__lists__item:last-child{
+    margin-bottom: 10rem;
+}
+
+a{
+    color: var(--secondary-color);
+}
+
+a:hover {
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+/* this css will apply to nav when hamburger is clicked */
+/* menu list is visible */
+
+.active {
+    right:0;
+    
+}
+
