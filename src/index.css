@@ -11,7 +11,13 @@
 
 /* || Variables */
 :root{
-  --main-color:#15023a
+  /* colors */
+  --main-color:#15023a;
+  --secondary-color: #fff;
+
+  /*  */
+  --transition : all 1s ease;
+
 }
 
 /* || General styling */
@@ -20,8 +26,14 @@ body {
   
 }
 
+li {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
 }
+
+
 
 
