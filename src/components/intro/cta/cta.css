@@ -1,0 +1,10 @@
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.cta a {
+    font-size: 1rem;
+}
