@@ -1,6 +1,6 @@
 .intro {
     display: flex;
-    background-color: white;
+    background-color: #F6F6F6;
     margin-top: 30px;
 }
 
@@ -15,7 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-left: 30px;
+    margin-left: 10.5rem;
    
     
 }
@@ -24,6 +24,7 @@
     font-size: 6rem;
     margin: 10px 0;
     font-weight: 700;
+    letter-spacing: 0.3rem;
 }
 
 .intro h2 {
@@ -35,7 +36,10 @@
     font-weight: 400;
 }
 
-.intro__background__img {
+
+
+
+/* .intro__background__img {
     background-color:#074f57;
     background-image: url("../../assets/background-hero.jpg");
     background-repeat: no-repeat;
@@ -44,24 +48,37 @@
     width: 90%;
     height: 10%;
     margin-top: 2rem;
-}
+} */
 
-.intro__background__img h3 {
+/* .intro__background__img h3 {
     color: white;
     font-size: 3rem;
     text-align: center;
     padding-top: 0.2rem;
-}
+} */
 
 
 
 
 
 .intro__right {
-    flex: 1;
-    background-color: green;
+    flex: 0.5;
     position: relative;
+    
 }
 
+.intro__right__wrapper {
+    position: absolute;
+    bottom: -1rem;
+    left: -8rem;
+}
+ 
+.intro__right a {
+    color:var(--main-color);
+    font-size: 3rem;
+}
 
-
+ .intro__right a:hover {
+    color: white;
+    transition: all 2s ease;
+}
