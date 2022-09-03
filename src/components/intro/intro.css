@@ -1,3 +1,67 @@
 .intro {
-    background-color: darkmagenta;
+    display: flex;
+    background-color: white;
+    margin-top: 30px;
 }
+
+.intro__left{
+    flex:1;
+}
+
+.intro__left__wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 30px;
+   
+    
+}
+
+.intro h1 {
+    font-size: 6rem;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+.intro h2 {
+    font-size:3rem ;
+}
+
+.intro h3 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.intro__background__img {
+    background-color:#074f57;
+    background-image: url("../../assets/background-hero.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-blend-mode:overlay;
+    width: 90%;
+    height: 10%;
+    margin-top: 2rem;
+}
+
+.intro__background__img h3 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 0.2rem;
+}
+
+
+
+
+
+.intro__right {
+    flex: 1;
+    background-color: green;
+    position: relative;
+}
+
+
+
