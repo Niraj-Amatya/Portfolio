@@ -3,8 +3,14 @@
     display: flex;
     gap: 1rem;
     justify-content: center;
+    text-align: center;
 }
 
-.cta a {
-    font-size: 1rem;
+
+
+@media screen and (max-width:37.5em){
+    .cta{
+        flex-direction: column;
+    }
+    
 }

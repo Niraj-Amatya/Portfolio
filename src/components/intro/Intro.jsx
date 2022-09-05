@@ -3,6 +3,7 @@ import './intro.css';
 import { IoIosArrowDown } from 'react-icons/io';
 import { init } from 'ityped';
 import Cta from '../intro/cta/Cta';
+import Socials from './socials/Socials';
 
 const Intro = () => {
   const textRef = useRef();
@@ -17,26 +18,32 @@ const Intro = () => {
   }, []);
 
   return (
-    <div className="intro" id="intro">
-      <div className="intro__left">
-        <div className="intro__left__wrapper">
-          <h3>Hi, I'm</h3>
-          <h1>Niraj Amatya</h1>
-          <h2>
-            Web Developer | <span ref={textRef}></span>
-          </h2>
+    <section className="hero" id="intro">
+      <div className="hero__content">
+        <h2 className="heading-primary">Hi, I'm Niraj Amatya</h2>
+        <h1 className="heading-secondary">
+          Web Developer <span className="divider-line">|</span>
+          <span className="text-slide" ref={textRef}></span>
+        </h1>
+        <div className="hero__info">
+          <p className="text-primary">
+            A Frontend focused Web Developer building the Frontend of Websites
+            and Web Applications.
+          </p>
           <Cta />
-          {/* <div className="intro__background__img"></div> */}
         </div>
+
+        {/* <div className="intro__background__img"></div> */}
       </div>
-      <div className="intro__right">
-        <div className="intro__right__wrapper">
-          <a href="#portfolio">
-            <IoIosArrowDown />
-          </a>
-        </div>
+      <div className="hero__socials">
+        <Socials />
       </div>
-    </div>
+      <div className="hero__scroll__down">
+        <a href="#work">
+          <IoIosArrowDown size={30} />
+        </a>
+      </div>
+    </section>
   );
 };
 

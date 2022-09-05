@@ -52,3 +52,36 @@ a:hover {
     
 }
 
+
+@media only screen and (max-width: 56.25em) {
+    .nav {
+        width: 200px;
+    }
+
+        .nav__lists{
+            font-size: 1.5rem;
+        }
+}
+
+
+@media screen and (max-width:37.5em) {
+    .nav {
+        width: 100%;
+        right: -640px;
+    }
+
+    .active {
+        right: 0;
+    }
+
+    .nav__lists{
+        align-items: center;
+        font-size: 2rem;
+            font-weight: 400;
+            letter-spacing: 1.3;
+    }
+
+        
+
+
+}
