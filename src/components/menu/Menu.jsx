@@ -16,8 +16,8 @@ const menu = ({ menuIsOpen, handleMenu }) => {
           </a>
         </li>
         <li className="nav__lists__item">
-          <a href="#portfolio" onClick={handleMenu}>
-            Portfolio
+          <a href="#about" onClick={handleMenu}>
+            About
           </a>
         </li>
         <li className="nav__lists__item">

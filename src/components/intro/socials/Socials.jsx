@@ -11,6 +11,7 @@ const Socials = () => {
         <a
           href="https://www.linkedin.com/in/niraj-amatya/"
           target="_blank"
+          rel="noopener noreferrer"
           className="hero__social-icon-link"
         >
           <AiFillLinkedin />
@@ -20,6 +21,7 @@ const Socials = () => {
         <a
           href="https://twitter.com/?lang=en"
           target="_blank"
+          rel="noopener noreferrer"
           className="hero__social-icon-link"
         >
           <BsTwitter />
@@ -29,6 +31,7 @@ const Socials = () => {
         <a
           href="https://github.com/Niraj-Amatya?tab=repositories"
           target="_blank"
+          rel="noopener noreferrer"
           className="hero__social-icon-link"
         >
           <AiOutlineGithub />
