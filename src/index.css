@@ -56,6 +56,7 @@ a {
   cursor: pointer;
   transition: var(--transition);
   text-align: center;
+  letter-spacing: 0.2rem;
 }
 
 
@@ -69,19 +70,29 @@ a {
 .btn:hover {
   color: var(--main-color);
   background-color: var(--secondary-color);
-    border: 1px solid var(--main-color);
-    transition: var(--transition);
+  border: 1px solid var(--main-color);
+  transition: var(--transition);
       
 }
 
 
+
+/* media queries */
 @media only screen and (max-width: 56.25em){
   .btn {
     font-size: 1.3rem;
       padding: 0.7rem 3.5rem;
       display: block;
       text-align: center;
+          letter-spacing: 0.2rem;
 
+  }
+}
+
+
+@media screen and (max-width:37.5em) {
+  .btn {
+    letter-spacing: 0.2rem;
   }
 }
 
