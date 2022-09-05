@@ -1,0 +1,17 @@
+.hero__social{
+    width: 3rem;
+}
+
+.hero__social-icon-link{
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    color: #111;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.hero__social-icon-link:hover {
+    color: #facf0f;
+    transition: var(--transition);
+}
