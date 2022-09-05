@@ -36,12 +36,6 @@ const Topbar = ({ handleMenu, menuIsOpen }) => {
           ) : (
             <AiOutlineClose size={30} />
           )}
-
-          {/* <div className="header__hamburger">
-            <span className="hamburger__line1"></span>
-            <span className="hamburger__line2"></span>
-            <span className="hamburger__line3"></span>
-          </div> */}
         </div>
       </div>
     </header>
