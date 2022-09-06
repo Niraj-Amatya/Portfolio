@@ -1,3 +1,7 @@
+#intro{
+    height: 70vh;
+}
+
 .hero {
     background-color: #F6F6F6;
     max-height: 120rem;
@@ -93,6 +97,13 @@
 
 
 @media screen and (max-width:37.5em){
+        
+    .hero {
+        height: unset;
+        width: unset;
+
+    }
+
         .hero__content {
                 width: 91%;
             }

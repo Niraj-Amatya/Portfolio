@@ -39,7 +39,7 @@ const Intro = () => {
         <Socials />
       </div>
       <div className="hero__scroll__down">
-        <a href="#work">
+        <a href="#about">
           <IoIosArrowDown size={30} />
         </a>
       </div>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Topbar from './components/topbar/Topbar';
 import Intro from './components/intro/Intro';
-import Portfolio from './components/portfolio/Portfolio';
+import About from './components/about/About';
 import Work from './components/work/Work';
 import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
@@ -21,7 +21,7 @@ const App = () => {
       <Menu menuIsOpen={menuIsOpen} handleMenu={menuHandler} />
       <div className="sections">
         <Intro />
-        <Portfolio />
+        <About />
         <Work />
         <Testimonials />
         <Contact />
