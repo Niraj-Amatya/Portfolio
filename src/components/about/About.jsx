@@ -12,6 +12,7 @@ const About = () => {
     { id: 5, skill: 'Redux' },
     { id: 6, skill: 'Git' },
     { id: 7, skill: 'Github' },
+    { id: 8, skill: 'Responsive Design' },
   ];
   return (
     <section className="about" id="about">
@@ -19,13 +20,13 @@ const About = () => {
         <h2 className="heading">
           <span className="heading__sec-main">About Me</span>
           <span className="heading__sec-sub">
-            Find more information about me and my current skills with
-            programming.
+            Find more information about me and my current skills and knowledge
+            about programming and coding.
           </span>
         </h2>
         <div className="about__content">
           <div className="about__content__main">
-            <h3 className="about__content__title">Know me</h3>
+            <h3 className="about__content__title">Know me more!</h3>
             <div className="about__content__detail">
               <p className="about__content__detail-paragraph">
                 I am a <strong>Frontend developer</strong> building frontend
@@ -47,7 +48,7 @@ const About = () => {
             <Button btnName="Contact Me" />
           </div>
           <div className="about__content__skills">
-            <h3 className="about__content__skills__title">My Skills</h3>
+            <h3 className="about__content__title">My Skills</h3>
             {/* get all the skills from array */}
             <div className="skills">
               {mySkills.map((skill) => {
