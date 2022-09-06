@@ -34,11 +34,17 @@
 
 
 /* media queries */
+
+@media screen and (max-width:37.5em) {
+    .btn {
+        letter-spacing: 0.2rem;
+    }
+}
+
 @media only screen and (max-width: 56.25em) {
     .btn {
         font-size: 1.3rem;
         padding: 0.7rem 3.5rem;
-        display: block;
         text-align: center;
         letter-spacing: 0.2rem;
 
@@ -46,8 +52,3 @@
 }
 
 
-@media screen and (max-width:37.5em) {
-    .btn {
-        letter-spacing: 0.2rem;
-    }
-}
