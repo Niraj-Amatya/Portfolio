@@ -21,8 +21,8 @@ const menu = ({ menuIsOpen, handleMenu }) => {
           </a>
         </li>
         <li className="nav__lists__item">
-          <a href="#work" onClick={handleMenu}>
-            Works
+          <a href="#project" onClick={handleMenu}>
+            Projects
           </a>
         </li>
         <li className="nav__lists__item">

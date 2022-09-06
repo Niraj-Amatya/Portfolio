@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Topbar from './components/topbar/Topbar';
 import Intro from './components/intro/Intro';
 import About from './components/about/About';
-import Work from './components/work/Work';
+import Project from './components/projects/Project';
 import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
 import Menu from './components/menu/Menu';
@@ -22,7 +22,7 @@ const App = () => {
       <div className="sections">
         <Intro />
         <About />
-        <Work />
+        <Project />
         <Testimonials />
         <Contact />
       </div>
