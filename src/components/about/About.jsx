@@ -1,7 +1,18 @@
 import './about.css';
 import React from 'react';
+import Button from '../UX/button/Button';
 
 const About = () => {
+  // my skills
+  const mySkills = [
+    { id: 1, skill: 'HTML' },
+    { id: 2, skill: 'CSS' },
+    { id: 3, skill: 'Javascript' },
+    { id: 4, skill: 'React' },
+    { id: 5, skill: 'Redux' },
+    { id: 6, skill: 'Git' },
+    { id: 7, skill: 'Github' },
+  ];
   return (
     <section className="about" id="about">
       <div className="main-container">
@@ -33,8 +44,21 @@ const About = () => {
                 don't hesitate to <strong>Contact</strong> me.
               </p>
             </div>
+            <Button btnName="Contact Me" />
           </div>
-          <div className="about__content__skills"></div>
+          <div className="about__content__skills">
+            <h3 className="about__content__skills__title">My Skills</h3>
+            {/* get all the skills from array */}
+            <div className="skills">
+              {mySkills.map((skill) => {
+                return (
+                  <div className="skills__skill" key={skill.id}>
+                    {skill.skill}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         </div>
       </div>
     </section>
