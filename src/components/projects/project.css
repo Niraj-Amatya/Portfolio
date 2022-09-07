@@ -1,3 +1,58 @@
-.work {
-    background-color: lightgreen;
+#project {
+    height: auto;
+}
+
+.project__contents {
+    display: grid;
+    grid-gap:4rem
+
+}
+
+@media screen and (min-width:56.26em){
+    .project__contents{
+        grid-template-columns: 1fr 1fr;
+     }
+    
+}
+
+.project__row {
+    text-align: center;
+}
+
+.project__row__img {
+
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.project__row__img{
+    margin-bottom: 2rem;
+}
+
+.project__img {
+    width: 80%;
+    display: block;
+    object-fit: cover;
+   
+}
+
+.project__row__description {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.project__title {
+    font-size: 2rem ;
+    font-weight: 700;
+    
+}
+
+.project__desc{
+    color: #666;
+    font-size: 1.2rem;
+    line-height:1.2;
 }
