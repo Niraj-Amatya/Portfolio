@@ -2,7 +2,6 @@ import React from 'react';
 import './button.css';
 
 const Button = (props) => {
-  console.log(props.btnDetails.btnName);
   return (
     <>
       <a
