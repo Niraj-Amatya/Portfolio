@@ -63,3 +63,11 @@
     justify-content: center;
     gap: 2rem;
 }
+
+
+.tech__stacks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
