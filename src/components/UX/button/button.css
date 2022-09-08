@@ -8,13 +8,14 @@
     background-color: #facf0f;
     color: var(--main-color);
     text-transform: uppercase;
-    padding: 0.7rem 2.5rem;
+    padding: 0.7rem 3.5rem;
     border-radius: 0.4rem;
     cursor: pointer;
     transition: var(--transition);
     text-align: center;
     letter-spacing: 0.2rem;
 }
+
 
 
 .btn-primary {
@@ -33,22 +34,32 @@
 }
 
 
+
+
+
 /* media queries */
 
-@media screen and (max-width:37.5em) {
+/* @media screen and (max-width:37.5em) {
     .btn {
         letter-spacing: 0.2rem;
     }
-}
+} */
 
-@media only screen and (max-width: 56.25em) {
+@media only screen and (min-width: 56.25em) {
     .btn {
-        font-size: 1.3rem;
+        display: inline-block;
+        font-size: 1rem;
         padding: 0.7rem 3.5rem;
         text-align: center;
         letter-spacing: 0.2rem;
 
     }
+
+    
+
+        
+
+        
 }
 
 
