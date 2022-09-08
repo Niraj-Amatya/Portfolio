@@ -30,7 +30,24 @@ const Project = () => {
                 An app to order food online using React
               </p>
             </div>
-            <Button btnName="Github" />
+            <div className="project__btn">
+              <Button
+                btnDetails={{
+                  btnName: 'Github',
+                  className: 'btn btn-sm',
+                  link: 'https://github.com/Online-Orders/Order-online/blob/master/src/Components/UI/Input.js',
+                  target: '_blank',
+                }}
+              />
+              <Button
+                btnDetails={{
+                  btnName: 'Website',
+                  className: 'btn btn-primary btn-sm',
+                  link: 'https://github.com/Online-Orders/Order-online/blob/master/src/Components/UI/Input.js',
+                  target: '_blank',
+                }}
+              />
+            </div>
           </div>
 
           {/* ......................... */}
@@ -46,7 +63,7 @@ const Project = () => {
               <h3 className="project__title"></h3>
               <p className="project__desc"></p>
             </div>
-            <Button btnName="Github" />
+            {/* <Button btnName="Github" /> */}
           </div>
           {/* ......................... */}
           <div className="project__row">
@@ -61,7 +78,7 @@ const Project = () => {
               <h3 className="project__title"></h3>
               <p className="project__desc"></p>
             </div>
-            <Button btnName="Github" />
+            {/* <Button btnName="Github" /> */}
           </div>
           {/* ......................... */}
           <div className="project__row">
@@ -76,7 +93,7 @@ const Project = () => {
               <h3 className="project__title"></h3>
               <p className="project__desc"></p>
             </div>
-            <Button btnName="Github" />
+            {/* <Button btnName="Github" /> */}
           </div>
         </div>
       </div>

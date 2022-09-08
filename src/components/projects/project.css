@@ -4,7 +4,7 @@
 
 .project__contents {
     display: grid;
-    grid-gap:4rem
+    grid-gap:6rem
 
 }
 
@@ -55,4 +55,11 @@
     color: #666;
     font-size: 1.2rem;
     line-height:1.2;
+}
+
+
+.project__btn {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
 }
