@@ -48,7 +48,7 @@ const About = () => {
             <Button
               btnDetails={{
                 btnName: 'Contact me',
-                className: 'btn btn-primary',
+                className: 'btn__custom btn__custom__primary',
                 link: '#contact',
               }}
             />{' '}

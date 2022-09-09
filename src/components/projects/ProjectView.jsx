@@ -51,7 +51,7 @@ const ProjectView = ({
           <Button
             btnDetails={{
               btnName: 'Github',
-              className: 'btn btn-sm',
+              className: 'btn__custom btn__custom-sm',
               link: github_link,
               target: '_blank',
             }}
@@ -59,7 +59,7 @@ const ProjectView = ({
           <Button
             btnDetails={{
               btnName: 'Website',
-              className: 'btn btn-primary btn-sm',
+              className: 'btn__custom btn__custom__primary btn__custom-sm',
               link: website_link,
               target: '_blank',
             }}
