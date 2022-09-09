@@ -18,7 +18,7 @@ const ProjectView = ({
 
   return (
     <div className="card">
-      <div className="project__row" key={id}>
+      <div className="project__row">
         <div className="project__row__img">
           <img src={img} alt="project react one" className="project__img" />
         </div>
