@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Img1 from '../../assets/project-1.png';
 import ProjectView from './ProjectView';
 
@@ -38,7 +38,7 @@ const Project = () => {
         'https://www.hostinger.com/tutorials/web-developer-portfolio',
     },
     {
-      id: 3,
+      id: 4,
       title: 'Food Guide',
       desc: 'An app to order food online using React',
       image: Img1,
@@ -48,7 +48,7 @@ const Project = () => {
         'https://www.hostinger.com/tutorials/web-developer-portfolio',
     },
     {
-      id: 3,
+      id: 5,
       title: 'Food Guide',
       desc: 'An app to order food online using React',
       image: Img1,
@@ -62,6 +62,7 @@ const Project = () => {
   // looping through all the projects from array and returning to the frontend
   const projects = myProjects.map((project) => (
     <ProjectView
+      key={project.id}
       id={project.id}
       title={project.title}
       desc={project.desc}
