@@ -26,16 +26,14 @@ html {
 
 /* || General styling */
 body {
+  
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
   overflow-y: auto;
   line-height: 1.2;
   
 }
-div {
-  overflow-x: hidden;
-  overflow-y: auto;
-}
+
 
 li {
   list-style: none;
