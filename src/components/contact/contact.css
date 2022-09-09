@@ -1,3 +1,51 @@
-.contact {
-    background: red;
+#contact {
+    height: auto;
 }
+
+.contact {
+    background: #fafafa;
+    
+}
+
+.contact__form__container {
+    width: 90%;
+    max-width: 80rem;
+    text-align: center;
+    background: #fff;
+    box-shadow: rgb(100 100 111 / 20%) 0 7px 29px 0;
+    padding: 3rem;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+
+.contact__form__field {
+    margin-bottom: 1.5rem;
+}
+
+
+
+
+
+.contact__form__label {
+    color: #666;
+    font-size: 1rem;
+    font-weight: 700;
+    display: block;
+    text-align: left;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.contact__form__input {
+
+    color: #333;
+    font-size: 1rem;
+    padding: 1rem;
+    width: 100%;
+    background: #f0f0f0;
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+
+}
+
