@@ -49,3 +49,11 @@
 
 }
 
+.success-message {
+    font-size: 1rem; 
+    font-size: 1.5rem;   
+    color: #666;
+    padding: 1rem;
+    margin-top: 2rem;
+    background:rgb(207, 235, 166)
+}
