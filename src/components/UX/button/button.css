@@ -8,7 +8,7 @@
     background-color: #facf0f;
     color: var(--main-color);
     text-transform: uppercase;
-    padding: 0.7rem 3.5rem;
+    padding: 0.7rem 2.5rem;
     border-radius: 0.4rem;
     cursor: pointer;
     transition: var(--transition);
@@ -33,6 +33,10 @@
 
 }
 
+.btn-sm {
+    padding: 0.7rem 0.5rem
+}
+
 
 
 
@@ -45,11 +49,11 @@
     }
 } */
 
-@media only screen and (min-width: 56.25em) {
+@media only screen and (min-width: 37.25em) {
     .btn {
         display: inline-block;
         font-size: 1rem;
-        padding: 0.7rem 3.5rem;
+        padding: 0.7rem 1.5rem;
         text-align: center;
         letter-spacing: 0.2rem;
 
