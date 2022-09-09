@@ -45,7 +45,13 @@ const About = () => {
                 don't hesitate to <strong>Contact</strong> me.
               </p>
             </div>
-            <Button btnName="Contact Me" />
+            <Button
+              btnDetails={{
+                btnName: 'Contact me',
+                className: 'btn btn-primary',
+                link: '#contact',
+              }}
+            />{' '}
           </div>
           <div className="about__content__skills">
             <h3 className="about__content__title">My Skills</h3>

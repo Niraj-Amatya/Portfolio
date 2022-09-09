@@ -17,6 +17,7 @@
 }
 
 
+
 .btn-primary {
     background-color: var(--main-color);
     color: var(--secondary-color);
@@ -32,23 +33,37 @@
 
 }
 
+.btn-sm {
+    padding: 0.7rem 0.5rem
+}
+
+
+
+
 
 /* media queries */
 
-@media screen and (max-width:37.5em) {
+/* @media screen and (max-width:37.5em) {
     .btn {
         letter-spacing: 0.2rem;
     }
-}
+} */
 
-@media only screen and (max-width: 56.25em) {
+@media only screen and (min-width: 37.25em) {
     .btn {
-        font-size: 1.3rem;
-        padding: 0.7rem 3.5rem;
+        display: inline-block;
+        font-size: 1rem;
+        padding: 0.7rem 1.5rem;
         text-align: center;
         letter-spacing: 0.2rem;
 
     }
+
+    
+
+        
+
+        
 }
 
 

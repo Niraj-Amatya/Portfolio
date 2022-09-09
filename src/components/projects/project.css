@@ -1,0 +1,17 @@
+#project {
+    height: auto;
+}
+
+.project__contents {
+    display: grid;
+    grid-gap:6rem
+
+}
+
+@media screen and (min-width:56.25em){
+    .project__contents{
+        grid-template-columns: 1fr 1fr ;
+     }
+    
+}
+
