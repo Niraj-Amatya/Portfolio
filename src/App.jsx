@@ -3,9 +3,9 @@ import Topbar from './components/topbar/Topbar';
 import Intro from './components/intro/Intro';
 import About from './components/about/About';
 import Project from './components/projects/Project';
-import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
 import Menu from './components/menu/Menu';
+import Footer from './components/footer/Footer';
 import './app.css';
 
 const App = () => {
@@ -24,8 +24,7 @@ const App = () => {
         <About />
         <Project />
         <Contact />
-
-        <Testimonials />
+        <Footer />
       </div>
     </div>
   );

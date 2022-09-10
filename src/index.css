@@ -10,6 +10,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 /* || Variables */
 :root{
@@ -137,7 +138,7 @@ a {
   max-width: 120rem;
   margin: auto;
   width: 92%;
-  padding: 4rem 0;
+  padding: 6rem 0;
 
 }
 

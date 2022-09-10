@@ -26,11 +26,6 @@ const menu = ({ menuIsOpen, handleMenu }) => {
           </a>
         </li>
         <li className="nav__lists__item">
-          <a href="#testimonials" onClick={handleMenu}>
-            Testimonials
-          </a>
-        </li>
-        <li className="nav__lists__item">
           <a href="#contact" onClick={handleMenu}>
             Contatct
           </a>
