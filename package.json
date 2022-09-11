@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage":"https://Niraj-Amatya.github.io/myportfolio",
+  
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
@@ -14,8 +14,7 @@
     "uuid": "^9.0.0"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,8 +40,5 @@
   },
   "optionalDependencies": {
     "fsevents": "^2.3.2"
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
   }
 }
