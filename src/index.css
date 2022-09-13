@@ -118,7 +118,7 @@ a {
   height: 5px;
   width: 3rem;
   top: calc(100% + 1.2rem);
-  left: 50%;
+  left: 42%;
   transform: traslateX(-50%);
   border-radius: 5px
 }
@@ -151,6 +151,12 @@ a {
 
 
 /* media queries */
+
+@media screen and (min-width: 37.5em){
+    .heading__sec-main::after {
+        left: 48%;
+    }
+}
 
 
 
