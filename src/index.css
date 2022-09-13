@@ -54,7 +54,7 @@ a {
   background-color: #facf0f;
   color: var(--main-color);
   text-transform: uppercase;
-  padding: 0.7rem 2.5rem;
+  padding: 0.7rem 1.5rem;
   border-radius: 0.4rem;
   cursor: pointer;
   transition: var(--transition);
@@ -81,6 +81,8 @@ a {
   transition: var(--transition);
       
 }
+
+
 
 
 @media screen and (min-width:37.5em) {
