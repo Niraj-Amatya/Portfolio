@@ -1,6 +1,4 @@
-#intro{
-    height: 70vh;
-}
+
 
 .hero {
     background-color: #F6F6F6;
@@ -19,7 +17,7 @@
 }
 
 .heading-primary {
-    font-size: 3rem;
+    font-size: 2rem;
     text-transform: uppercase;
     text-align: center;
     color: #111;
@@ -29,7 +27,7 @@
 }
 
 .heading-secondary {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 800;
     text-align: center;
     letter-spacing: 3px;
@@ -48,65 +46,78 @@
     font-size: 1.2rem;
 }
 
-.hero__socials {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: #fff;
-    box-shadow: rgb(100 100 111 / 20%) 0 7px 29px 0;
+ .hero__socials {
+     display: none;
+ }
+
+ .hero__scroll__down {
+     display: none;
+ }
+
+ .text-slide {
+     display: none;
+ }
+
+  .divider-line {
+      display: none;
+  }
+
+
+
+@media screen and (min-width:37.5em) {
+
+    .hero__content {
+            width: 90%;
+        }
+        
+    .heading-primary {
+        font-size: 3rem;
+    }
+
+    .heading-secondary{
+                font-size: 3rem;
+    }
 }
 
-.hero__scroll__down {
-    position: absolute;
-    bottom: 3%;
-    left: 50%;
-    transform: translate(-50%);
-}
 
-.hero__scroll__down a{
-        color: var(--main-color);
-}
-
-.hero__scroll__down a:hover {
-    color: var(--secondary-color);
-    transition: all 3s ease;
-}
-
-
-@media screen and (max-width:56.25em){
+@media screen and (min-width:56.25em){
     
-    .hero__content{
-        width: 90%;
-    }
-
-    .hero__socials{
-        display: none;
-    }
-    .hero__scroll__down{
-        display: none;
-    }
-
-        .text-slide {
-            display: none;
+    .hero__socials {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #fff;
+            box-shadow: rgb(100 100 111 / 20%) 0 7px 29px 0;
         }
+    
 
-        .divider-line {
-            display: none;
-        }
+                .hero__scroll__down {
+                    position: absolute;
+                    bottom: 3%;
+                    left: 50%;
+                    transform: translate(-50%);
+                }
+        
+                .hero__scroll__down a {
+                    color: var(--main-color);
+                }
+        
+                .hero__scroll__down a:hover {
+                    color: var(--secondary-color);
+                    transition: all 3s ease;
+                }
+   
+                                .text-slide {
+                                    display: inline-block;
+                                }
+                
+                                .divider-line {
+                                    display: inline;
+                                }
+
+        
+
+       
 }
 
 
-@media screen and (max-width:37.5em){
-        
-    .hero {
-        height: unset;
-        width: unset;
-
-    }
-
-        .hero__content {
-                width: 91%;
-            }
-
-        
-}
