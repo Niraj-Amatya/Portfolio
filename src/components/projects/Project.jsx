@@ -40,7 +40,7 @@ const Project = () => {
     },
     {
       id: 4,
-      title: 'Gift Cart',
+      title: 'Gift Cart - In Progress',
       desc: 'An app to buy a gift',
       image: Img4,
       tech_stacks: [
