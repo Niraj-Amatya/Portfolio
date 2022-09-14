@@ -29,7 +29,7 @@ const ProjectView = ({
             className="tech__stacks__info"
             onClick={() => setStackShown(!stackShown)}
           >
-            <span>{stackShown ? 'Hide' : 'Show'}</span>
+            <span>{stackShown ? 'Hide' : 'Show Techs Used'}</span>
             {stackShown ? <IoIosArrowUp /> : <IoIosArrowDown />}
           </div>
 

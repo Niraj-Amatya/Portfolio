@@ -81,7 +81,8 @@
 @media screen and (min-width:56.25em){
     
     .hero__socials {
-            position: absolute;
+            display: inline;
+            position: absolute; 
             top: 50%;
             transform: translateY(-50%);
             background: #fff;

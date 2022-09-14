@@ -19,7 +19,7 @@ const Socials = () => {
       </div>
       <div className="hero__social">
         <a
-          href="https://twitter.com/?lang=en"
+          href="https://twitter.com/amatya_niraj"
           target="_blank"
           rel="noopener noreferrer"
           className="hero__social-icon-link"
@@ -29,7 +29,7 @@ const Socials = () => {
       </div>
       <div className="hero__social">
         <a
-          href="https://github.com/Niraj-Amatya?tab=repositories"
+          href="https://github.com/Niraj-Amatya"
           target="_blank"
           rel="noopener noreferrer"
           className="hero__social-icon-link"
