@@ -25,7 +25,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://twitter.com/?lang=en"
+                href="https://twitter.com/amatya_niraj"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="main__footer__social__link"
@@ -33,7 +33,7 @@ const Footer = () => {
                 <BsTwitter />
               </a>
               <a
-                href="https://github.com/Niraj-Amatya?tab=repositories"
+                href="https://github.com/Niraj-Amatya"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="main__footer__social__link"
