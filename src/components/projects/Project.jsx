@@ -1,5 +1,9 @@
 import React from 'react';
 import Img1 from '../../assets/project-1.png';
+import Img2 from '../../assets/project-2.png';
+import Img3 from '../../assets/project-3.png';
+import Img4 from '../../assets/project-4.png';
+
 import ProjectView from './ProjectView';
 
 import './project.css';
@@ -8,54 +12,48 @@ const Project = () => {
   const myProjects = [
     {
       id: 1,
-      title: 'Order Food Online',
-      desc: 'An app to order food online using React',
+      title: 'Foodie',
+      desc: 'Order you favourite food',
       image: Img1,
-      tech_stacks: ['React', 'Javascript', 'Css', 'HTML'],
-      github_link:
-        'https://github.com/Online-Orders/Order-online/blob/master/src/Components/UI/Input.js',
-      website_link:
-        'https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Overflowing_content',
+      tech_stacks: ['React', 'HTML', 'CSS', 'Javascript', 'Axios', 'Firebase'],
+      github_link: 'https://github.com/Online-Orders/Order-online',
+      website_link: 'https://hifoodie.netlify.app/',
     },
     {
       id: 2,
 
-      title: 'Tours Guide',
-      desc: 'An app to order see places using React',
-      image: Img1,
-      tech_stacks: ['React', 'Javascript', 'Css'],
-      github_link: 'https://github.com/Niraj-Amatya/Counter-App-Redux',
-      website_link: 'https://www.youtube.com/watch?v=8nXqcugV2Y4',
+      title: 'Personal Portfolio',
+      desc: 'An app to showcase projects I have built.',
+      image: Img2,
+      tech_stacks: ['React', 'Javascript', 'Css', 'HTML', 'Github', 'Git'],
+      github_link: 'https://github.com/Niraj-Amatya/Portfolio',
+      website_link: 'https://niraj-amatya.netlify.app/',
     },
     {
       id: 3,
-      title: 'Food Guide',
-      desc: 'An app to order food online using React',
-      image: Img1,
-      tech_stacks: ['React', 'Javascript', 'Css', 'HTML'],
-      github_link: 'https://github.com/Niraj-Amatya/buymysari',
-      website_link:
-        'https://www.hostinger.com/tutorials/web-developer-portfolio',
+      title: 'Your Todo List',
+      desc: 'A simple app to manage your Todos list',
+      image: Img3,
+      tech_stacks: ['React', 'Javascript', 'Css', 'HTML', 'Local storage'],
+      github_link: 'https://github.com/Niraj-Amatya/Your-Todo-Lists',
+      website_link: 'https://listyourtodos.netlify.app/',
     },
     {
       id: 4,
-      title: 'Food Guide',
-      desc: 'An app to order food online using React',
-      image: Img1,
-      tech_stacks: ['React', 'Javascript', 'Css', 'HTML'],
-      github_link: 'https://github.com/Niraj-Amatya/buymysari',
-      website_link:
-        'https://www.hostinger.com/tutorials/web-developer-portfolio',
-    },
-    {
-      id: 5,
-      title: 'Food Guide',
-      desc: 'An app to order food online using React',
-      image: Img1,
-      tech_stacks: ['React', 'Javascript', 'Css', 'HTML'],
-      github_link: 'https://github.com/Niraj-Amatya/buymysari',
-      website_link:
-        'https://www.hostinger.com/tutorials/web-developer-portfolio',
+      title: 'Gift Cart',
+      desc: 'An app to buy a gift',
+      image: Img4,
+      tech_stacks: [
+        'React',
+        'Javascript',
+        'Css',
+        'HTML',
+        'Redux',
+        'Redux-Thunk',
+      ],
+      github_link:
+        'https://github.com/Niraj-Amatya/Shopping-Carts---Redux-thunks',
+      website_link: 'https://giftcart.netlify.app/',
     },
   ];
 
