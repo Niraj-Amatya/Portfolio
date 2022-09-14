@@ -82,7 +82,7 @@
     
     .hero__socials {
             display: inline;
-            position: absolute;
+            position: absolute; 
             top: 50%;
             transform: translateY(-50%);
             background: #fff;
