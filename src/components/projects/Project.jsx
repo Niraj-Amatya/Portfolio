@@ -2,7 +2,6 @@ import React from 'react';
 import Img1 from '../../assets/project-1.png';
 import Img2 from '../../assets/project-2.png';
 import Img3 from '../../assets/project-3.png';
-import Img4 from '../../assets/project-4.png';
 
 import ProjectView from './ProjectView';
 
@@ -15,7 +14,17 @@ const Project = () => {
       title: 'Foodie',
       desc: 'Order you favourite food',
       image: Img1,
-      tech_stacks: ['React', 'HTML', 'CSS', 'Javascript', 'Axios', 'Firebase'],
+      tech_stacks: [
+        'React',
+        'HTML',
+        'CSS',
+        'Javascript',
+        'Axios',
+        'Firebase',
+        'React-EmailJS',
+        'Git',
+        'Github',
+      ],
       github_link: 'https://github.com/Online-Orders/Order-online',
       website_link: 'https://hifoodie.netlify.app/',
     },
@@ -25,35 +34,37 @@ const Project = () => {
       title: 'Personal Portfolio',
       desc: 'An app to showcase projects I have built.',
       image: Img2,
-      tech_stacks: ['React', 'Javascript', 'Css', 'HTML', 'Github', 'Git'],
-      github_link: 'https://github.com/Niraj-Amatya/Portfolio',
-      website_link: 'https://niraj-amatya.netlify.app/',
-    },
-    {
-      id: 3,
-      title: 'Your Todo List',
-      desc: 'A simple app to manage your Todos list',
-      image: Img3,
-      tech_stacks: ['React', 'Javascript', 'Css', 'HTML', 'Local storage'],
-      github_link: 'https://github.com/Niraj-Amatya/Your-Todo-Lists',
-      website_link: 'https://listyourtodos.netlify.app/',
-    },
-    {
-      id: 4,
-      title: 'Gift Cart - In Progress',
-      desc: 'An app to buy a gift',
-      image: Img4,
       tech_stacks: [
         'React',
         'Javascript',
         'Css',
         'HTML',
+        'Github',
+        'Git',
+        'React-EmailJS',
+      ],
+      github_link: 'https://github.com/Niraj-Amatya/Portfolio',
+      website_link: 'https://niraj-amatya.netlify.app/',
+    },
+    {
+      id: 3,
+      title: 'Blogs',
+      desc: 'Blogs from different Author',
+      image: Img3,
+      tech_stacks: [
         'Redux',
         'Redux-Thunk',
+        'CreateAsyncThunk',
+        'React',
+        'Javascript',
+        'Css',
+        'HTML',
+        'date-fns',
+        'Git',
+        'Github',
       ],
-      github_link:
-        'https://github.com/Niraj-Amatya/Shopping-Carts---Redux-thunks',
-      website_link: 'https://giftcart.netlify.app/',
+      github_link: 'https://github.com/Niraj-Amatya/Blog-post',
+      website_link: 'https://getblogs.netlify.app/',
     },
   ];
 
