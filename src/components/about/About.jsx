@@ -10,9 +10,10 @@ const About = () => {
     { id: 3, skill: 'Javascript' },
     { id: 4, skill: 'React' },
     { id: 5, skill: 'Redux' },
-    { id: 6, skill: 'Git' },
-    { id: 7, skill: 'Github' },
-    { id: 8, skill: 'Responsive Design' },
+    { id: 6, skill: 'Redux-Thunk' },
+    { id: 7, skill: 'Git' },
+    { id: 8, skill: 'Github' },
+    { id: 9, skill: 'Responsive Design' },
   ];
   return (
     <section className="about" id="about">
